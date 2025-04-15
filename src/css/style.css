@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+  }
+  
+
+[popover] {
+    position: absolute;
+    inset: unset;
+    background-color: lightblue;
+    color: #514f4f;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 8px;
+    box-shadow: 1px 1px 5px 0px #0000005e;
+    z-index: 9999;
+}
+
+
+.btn {
+    position: relative;
+    background-color: #f5c8c8;
+    border-radius: 10px;
+    padding: 10px;
+    color: #b71a1a;
+    border: 1px solid red;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 150px;
+}
